@@ -60,7 +60,7 @@ The project structure will be organized as follows:
 
 To begin with the project, follow these steps:
 
-1. Clone the repository: [yoga-and-meditation](https://github.com/yoga-and-meditation/yoga-and-meditation)
+1. Clone the repository: [yoga-and-meditation](https://github.com/prakhau143/yoga-project)
 2. Navigate to the project directory: `cd yoga-and-meditation`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
@@ -82,4 +82,4 @@ The Yoga, Meditation, and Counseling website project is licensed under the [MIT 
 
 ## 👨‍💻 Developer
 
-This project is developed by [Prakhar Mittal](https://github.com/prakharmittal)
+This project is developed by [Prakhar Mittal](https://github.com/prakhau143)
