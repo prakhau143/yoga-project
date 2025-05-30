@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import "variables";
+
+/* ---------------------------- Mixin for button style -------------------------- */
+@mixin button-style {
+  background-color: #b48821;
+  color: $button-text-color;
+  padding: 0 0.9rem;
+  height: 2.6rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+  box-shadow: 4px 8px 40px 0px rgba(142, 110, 26, 0.15%);
+  transition: all 0.5s ease;
+  &:hover {
+    color: #001f3f;
+  }
+}
+
+/* ---------------------------- Mixin for heading 2 style -------------------------- */
+@mixin heading-2-style {
+  color: #b48821;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 2rem;
+  }
+}
+
+/* ---------------------------- Mixin for card shadow style -------------------------- */
+@mixin card-shadow {
+  box-shadow: -16px -19px 57px 32px rgba(0, 0, 0, 0.1),
+    -30px 6px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+/* ---------------------------- Mixin for section padding style -------------------------- */
+@mixin section-padding-style {
+  margin: 8rem auto;
+  width: 100%;
+  max-width: 95rem;
+  padding: 0 2rem;
+}
+
+/* ---------------------------- Mixin for Google fonts -------------------------- */
+@mixin heading-1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+@mixin heading-2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+@mixin heading-3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2.3rem;
+}
+
+@mixin paragraph-normal {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+@mixin paragraph-italics {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@mixin yoga {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+@mixin logo-font-style {
+  font-family: 'Moon Dance', cursive;
+  color: #b48821;
+}
