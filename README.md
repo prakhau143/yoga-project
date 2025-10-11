@@ -11,6 +11,7 @@ Welcome to the README file for the Yoga and Meditation web application. This pro
 5. [Getting Started](#getting-started)
 6. [Contributing](#contributing)
 7. [License](#license)
+                                                                                                                                                   
 
 ## 🌟 Project Overview
 
