@@ -13,7 +13,7 @@ Welcome to the README file for the Yoga and Meditation web application. This pro
 7. [License](#license)
                                                                                                                                                    
 
-## 🌟 Project Overview
+## 🌟 Project Overview            
 
 This application is dedicated to fostering physical and mental well-being. It offers an array of resources, from comprehensive guides on diverse yoga and meditation practices to schedules for classes and workshops, all conducted by professionals in the field. With a commitment to enhancing inner harmony, this web application provides an all-encompassing experience.
 
